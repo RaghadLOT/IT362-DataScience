@@ -1,0 +1,1962 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d73d498de77923a16b94ac317036b147 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d73d498de77923a16b94ac317036b147" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d73d498de77923a16b94ac317036b147 = L.map(
+                "map_d73d498de77923a16b94ac317036b147",
+                {
+                    center: [24.7307526245, 46.71475663374999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_940f8076753e907ffb22d0f0536c3ec4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_940f8076753e907ffb22d0f0536c3ec4.addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var marker_ba12820a24a31150c57e944d74bd085e = L.marker(
+                [24.773121, 46.851028],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_5e1c55505674743327e9c49e2ac6054a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba12820a24a31150c57e944d74bd085e.setIcon(icon_5e1c55505674743327e9c49e2ac6054a);
+        
+    
+        var popup_095862563444b03ee9f787ca73b8c340 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ab33d03cf0dca343d8fb7a1db102b4f = $(`<div id="html_9ab33d03cf0dca343d8fb7a1db102b4f" style="width: 100.0%; height: 100.0%;">Ministry of Interior (FSF) project</div>`)[0];
+                popup_095862563444b03ee9f787ca73b8c340.setContent(html_9ab33d03cf0dca343d8fb7a1db102b4f);
+            
+        
+
+        marker_ba12820a24a31150c57e944d74bd085e.bindPopup(popup_095862563444b03ee9f787ca73b8c340)
+        ;
+
+        
+    
+    
+            var marker_557636cafd1a2ccfb8630b1b11a52bcb = L.marker(
+                [24.569527, 46.630859],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_0d344a7e76974478d3189ab9de2aa417 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_557636cafd1a2ccfb8630b1b11a52bcb.setIcon(icon_0d344a7e76974478d3189ab9de2aa417);
+        
+    
+        var popup_f87146a2de2c7f17a5d8fc9d0284f1f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006014e35c94c230782cd26503235d05 = $(`<div id="html_006014e35c94c230782cd26503235d05" style="width: 100.0%; height: 100.0%;">الإدارة العامة للخدمات الطبية (وزارة الداخلية)</div>`)[0];
+                popup_f87146a2de2c7f17a5d8fc9d0284f1f0.setContent(html_006014e35c94c230782cd26503235d05);
+            
+        
+
+        marker_557636cafd1a2ccfb8630b1b11a52bcb.bindPopup(popup_f87146a2de2c7f17a5d8fc9d0284f1f0)
+        ;
+
+        
+    
+    
+            var marker_6ea35d3da441be6cb14837d1c14b8207 = L.marker(
+                [24.643877, 46.695303],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_2ebd8012535ce0047ad0138665d37dc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6ea35d3da441be6cb14837d1c14b8207.setIcon(icon_2ebd8012535ce0047ad0138665d37dc2);
+        
+    
+        var popup_ea1f4530cd9af6bd84546aba57c40967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e278276374a716e68c4f10675cff878 = $(`<div id="html_5e278276374a716e68c4f10675cff878" style="width: 100.0%; height: 100.0%;">Saudi Broadcasting Corporation (هيئة الإذاعة والتلفزيون)</div>`)[0];
+                popup_ea1f4530cd9af6bd84546aba57c40967.setContent(html_5e278276374a716e68c4f10675cff878);
+            
+        
+
+        marker_6ea35d3da441be6cb14837d1c14b8207.bindPopup(popup_ea1f4530cd9af6bd84546aba57c40967)
+        ;
+
+        
+    
+    
+            var marker_071b03333ebb6b79f7321a38faf43c80 = L.marker(
+                [24.713659, 46.675551],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_b92d210af9dd581fcb08f4581ca0e330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_071b03333ebb6b79f7321a38faf43c80.setIcon(icon_b92d210af9dd581fcb08f4581ca0e330);
+        
+    
+        var popup_48dfa111fbcd08b53884eb27b99061bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ded995e0f2087eeb2f3d296f9e8d035 = $(`<div id="html_0ded995e0f2087eeb2f3d296f9e8d035" style="width: 100.0%; height: 100.0%;">Banque Saudi Fransi - Private Banking Head Office (البنك السعودي الفرنسي - المكتب الرئيسي)</div>`)[0];
+                popup_48dfa111fbcd08b53884eb27b99061bb.setContent(html_0ded995e0f2087eeb2f3d296f9e8d035);
+            
+        
+
+        marker_071b03333ebb6b79f7321a38faf43c80.bindPopup(popup_48dfa111fbcd08b53884eb27b99061bb)
+        ;
+
+        
+    
+    
+            var marker_fc001534e7fa056066e8435f44850fb3 = L.marker(
+                [24.706713, 46.675141],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_34ef40650249c1f13124df7d6c2a496e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fc001534e7fa056066e8435f44850fb3.setIcon(icon_34ef40650249c1f13124df7d6c2a496e);
+        
+    
+        var popup_4065044e8037d20908731110b9684057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa87bda9cc2101d4f208ea6fb0d5e941 = $(`<div id="html_fa87bda9cc2101d4f208ea6fb0d5e941" style="width: 100.0%; height: 100.0%;">Alinma Bank Head Office (مصرف الإنماء المركز الرئيسي)</div>`)[0];
+                popup_4065044e8037d20908731110b9684057.setContent(html_fa87bda9cc2101d4f208ea6fb0d5e941);
+            
+        
+
+        marker_fc001534e7fa056066e8435f44850fb3.bindPopup(popup_4065044e8037d20908731110b9684057)
+        ;
+
+        
+    
+    
+            var marker_34db220c0a5453603a984b40e9be9c5f = L.marker(
+                [24.683311, 46.71096],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_dba82d1a67b4bc94c6d2c1e31b4ef5fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34db220c0a5453603a984b40e9be9c5f.setIcon(icon_dba82d1a67b4bc94c6d2c1e31b4ef5fc);
+        
+    
+        var popup_85dcf1ecbf00abd02f3ca4d255685c67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1f937fe4518d3747d7471052cd2d1e7 = $(`<div id="html_e1f937fe4518d3747d7471052cd2d1e7" style="width: 100.0%; height: 100.0%;">The Saudi Investment Bank (SAIB) - Head Office (البنك السعودي للاستثمار - الإدارة العامة)</div>`)[0];
+                popup_85dcf1ecbf00abd02f3ca4d255685c67.setContent(html_e1f937fe4518d3747d7471052cd2d1e7);
+            
+        
+
+        marker_34db220c0a5453603a984b40e9be9c5f.bindPopup(popup_85dcf1ecbf00abd02f3ca4d255685c67)
+        ;
+
+        
+    
+    
+            var marker_913ec4e41ce709e1702bc465016cac2b = L.marker(
+                [24.616628, 46.551857],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_3be97459a51021db4cc049785b158065 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_913ec4e41ce709e1702bc465016cac2b.setIcon(icon_3be97459a51021db4cc049785b158065);
+        
+    
+        var popup_22c993a8e397fe5b68b56083f3311dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c63b88bfbc859cd7c324efea7253661a = $(`<div id="html_c63b88bfbc859cd7c324efea7253661a" style="width: 100.0%; height: 100.0%;">مركز صحي حي الملك فهد - وزارة الصحه</div>`)[0];
+                popup_22c993a8e397fe5b68b56083f3311dbe.setContent(html_c63b88bfbc859cd7c324efea7253661a);
+            
+        
+
+        marker_913ec4e41ce709e1702bc465016cac2b.bindPopup(popup_22c993a8e397fe5b68b56083f3311dbe)
+        ;
+
+        
+    
+    
+            var marker_4053278a3388cf12a492fd23ac55f149 = L.marker(
+                [24.642629, 46.697153],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_91b936d71c0ff4b46ff6c4174104b989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4053278a3388cf12a492fd23ac55f149.setIcon(icon_91b936d71c0ff4b46ff6c4174104b989);
+        
+    
+        var popup_0482e88f5a8ba92d7a7e51193ff06d5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cf3d6ccbe0ff2a8becbe7172732029e = $(`<div id="html_1cf3d6ccbe0ff2a8becbe7172732029e" style="width: 100.0%; height: 100.0%;">Ministry of Media (وزارة الإعلام)</div>`)[0];
+                popup_0482e88f5a8ba92d7a7e51193ff06d5f.setContent(html_1cf3d6ccbe0ff2a8becbe7172732029e);
+            
+        
+
+        marker_4053278a3388cf12a492fd23ac55f149.bindPopup(popup_0482e88f5a8ba92d7a7e51193ff06d5f)
+        ;
+
+        
+    
+    
+            var marker_4b06da2f18ec15c4953db31ae2ed00d6 = L.marker(
+                [24.609838, 46.666544],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_f9336490ab9cc3c197eafb19bba7a59b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b06da2f18ec15c4953db31ae2ed00d6.setIcon(icon_f9336490ab9cc3c197eafb19bba7a59b);
+        
+    
+        var popup_3fba6950aa503d342812a303b27c9220 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e82563598a616df5ae2277450a0583c = $(`<div id="html_2e82563598a616df5ae2277450a0583c" style="width: 100.0%; height: 100.0%;">Luxury Events Office</div>`)[0];
+                popup_3fba6950aa503d342812a303b27c9220.setContent(html_2e82563598a616df5ae2277450a0583c);
+            
+        
+
+        marker_4b06da2f18ec15c4953db31ae2ed00d6.bindPopup(popup_3fba6950aa503d342812a303b27c9220)
+        ;
+
+        
+    
+    
+            var marker_c0e549be5eafa969e88712425ea4c044 = L.marker(
+                [24.736627, 46.633871],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_9246d2b7089453c1c5a6e89a8992285c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0e549be5eafa969e88712425ea4c044.setIcon(icon_9246d2b7089453c1c5a6e89a8992285c);
+        
+    
+        var popup_cc2917bbc18b93da815b9643319e732e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c14cc7d2e404a69231749a46359894d9 = $(`<div id="html_c14cc7d2e404a69231749a46359894d9" style="width: 100.0%; height: 100.0%;">CST (هيئة الاتصالات والفضاء والتقنية)</div>`)[0];
+                popup_cc2917bbc18b93da815b9643319e732e.setContent(html_c14cc7d2e404a69231749a46359894d9);
+            
+        
+
+        marker_c0e549be5eafa969e88712425ea4c044.bindPopup(popup_cc2917bbc18b93da815b9643319e732e)
+        ;
+
+        
+    
+    
+            var marker_07ececdf1a7788d3080ea35892da0f80 = L.marker(
+                [24.940704, 46.713573],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_b94d19e87044daaf6a93e507ca6dc06e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_07ececdf1a7788d3080ea35892da0f80.setIcon(icon_b94d19e87044daaf6a93e507ca6dc06e);
+        
+    
+        var popup_f11a4a6d423addcd30f78addac66e89d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a3172574a3c6f4a6b25b2fec11f7e1f = $(`<div id="html_0a3172574a3c6f4a6b25b2fec11f7e1f" style="width: 100.0%; height: 100.0%;">Executive Office (المكتب التنفيذي)</div>`)[0];
+                popup_f11a4a6d423addcd30f78addac66e89d.setContent(html_0a3172574a3c6f4a6b25b2fec11f7e1f);
+            
+        
+
+        marker_07ececdf1a7788d3080ea35892da0f80.bindPopup(popup_f11a4a6d423addcd30f78addac66e89d)
+        ;
+
+        
+    
+    
+            var marker_50a524f22975db6732b5fcd63bc198ef = L.marker(
+                [24.710642, 46.84033],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_fa4fde8222e6ff1e694b65923d835461 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50a524f22975db6732b5fcd63bc198ef.setIcon(icon_fa4fde8222e6ff1e694b65923d835461);
+        
+    
+        var popup_0ed44dcc41f27022cabbcd0326de12c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e761cd31971c29be30f34d3d3ac9702 = $(`<div id="html_2e761cd31971c29be30f34d3d3ac9702" style="width: 100.0%; height: 100.0%;">وزارة التربية والتعليم - وحدة التطوير الإداري (القسم النسائي)</div>`)[0];
+                popup_0ed44dcc41f27022cabbcd0326de12c3.setContent(html_2e761cd31971c29be30f34d3d3ac9702);
+            
+        
+
+        marker_50a524f22975db6732b5fcd63bc198ef.bindPopup(popup_0ed44dcc41f27022cabbcd0326de12c3)
+        ;
+
+        
+    
+    
+            var marker_d6b6d34c2e36569d263061eb83bf4a99 = L.marker(
+                [24.627908, 46.69131],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_1e55d9130921b90d3b36558fd87057d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6b6d34c2e36569d263061eb83bf4a99.setIcon(icon_1e55d9130921b90d3b36558fd87057d7);
+        
+    
+        var popup_fc61281cbd95a376bb962156fdb899dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63f067caf0a86b375050d21d89a863bd = $(`<div id="html_63f067caf0a86b375050d21d89a863bd" style="width: 100.0%; height: 100.0%;">Medical Tower 1 - KSMC</div>`)[0];
+                popup_fc61281cbd95a376bb962156fdb899dc.setContent(html_63f067caf0a86b375050d21d89a863bd);
+            
+        
+
+        marker_d6b6d34c2e36569d263061eb83bf4a99.bindPopup(popup_fc61281cbd95a376bb962156fdb899dc)
+        ;
+
+        
+    
+    
+            var marker_f7a979ae433498f42254919f45a73306 = L.marker(
+                [24.810156, 46.736549],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_7f823be723a005f2b576fa4e978714b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f7a979ae433498f42254919f45a73306.setIcon(icon_7f823be723a005f2b576fa4e978714b0);
+        
+    
+        var popup_e99bb22a7b4c5f79f80594ad67bd2743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4bd59c84fc07c0638f7d056445f9596 = $(`<div id="html_c4bd59c84fc07c0638f7d056445f9596" style="width: 100.0%; height: 100.0%;">Al Kessaey Clinic</div>`)[0];
+                popup_e99bb22a7b4c5f79f80594ad67bd2743.setContent(html_c4bd59c84fc07c0638f7d056445f9596);
+            
+        
+
+        marker_f7a979ae433498f42254919f45a73306.bindPopup(popup_e99bb22a7b4c5f79f80594ad67bd2743)
+        ;
+
+        
+    
+    
+            var marker_e41293c6e4e39d31be73c0dda656cb7b = L.marker(
+                [24.777288, 46.751288],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_26fd36ba3d2051ea8f2e3f711bfd5539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e41293c6e4e39d31be73c0dda656cb7b.setIcon(icon_26fd36ba3d2051ea8f2e3f711bfd5539);
+        
+    
+        var popup_438363fb562a62d6eb370dffdec833c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3102d2276fb8e0feee96b5945ddcbadc = $(`<div id="html_3102d2276fb8e0feee96b5945ddcbadc" style="width: 100.0%; height: 100.0%;">HBR Clinic</div>`)[0];
+                popup_438363fb562a62d6eb370dffdec833c9.setContent(html_3102d2276fb8e0feee96b5945ddcbadc);
+            
+        
+
+        marker_e41293c6e4e39d31be73c0dda656cb7b.bindPopup(popup_438363fb562a62d6eb370dffdec833c9)
+        ;
+
+        
+    
+    
+            var marker_ca0f32a268ee413ceb9ff62640c0f03d = L.marker(
+                [24.675457, 46.680572],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_52974bd94d937304f599a82a6a8df984 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca0f32a268ee413ceb9ff62640c0f03d.setIcon(icon_52974bd94d937304f599a82a6a8df984);
+        
+    
+        var popup_fa825d50df91c077fa9d87c5e0477488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_977650af5510fe807ed3b1331e50a013 = $(`<div id="html_977650af5510fe807ed3b1331e50a013" style="width: 100.0%; height: 100.0%;">Thuriah Medical Center</div>`)[0];
+                popup_fa825d50df91c077fa9d87c5e0477488.setContent(html_977650af5510fe807ed3b1331e50a013);
+            
+        
+
+        marker_ca0f32a268ee413ceb9ff62640c0f03d.bindPopup(popup_fa825d50df91c077fa9d87c5e0477488)
+        ;
+
+        
+    
+    
+            var marker_940d45b214941074334455ea8bb1ce66 = L.marker(
+                [24.748991, 46.77825],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_d162214c247cf2241bce7aefe64ca470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_940d45b214941074334455ea8bb1ce66.setIcon(icon_d162214c247cf2241bce7aefe64ca470);
+        
+    
+        var popup_19af1701ed341a8b03a93648c3e4aaad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32823e7f96c4109eade0e7714090efbb = $(`<div id="html_32823e7f96c4109eade0e7714090efbb" style="width: 100.0%; height: 100.0%;">ALSUBHI CLINIC (عيادات الصبحي)</div>`)[0];
+                popup_19af1701ed341a8b03a93648c3e4aaad.setContent(html_32823e7f96c4109eade0e7714090efbb);
+            
+        
+
+        marker_940d45b214941074334455ea8bb1ce66.bindPopup(popup_19af1701ed341a8b03a93648c3e4aaad)
+        ;
+
+        
+    
+    
+            var marker_f0be71eb0ade2d1b31ce24a93e199ef4 = L.marker(
+                [24.807604, 46.802246],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_fde281451ea07f3dc14bebb30b611601 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0be71eb0ade2d1b31ce24a93e199ef4.setIcon(icon_fde281451ea07f3dc14bebb30b611601);
+        
+    
+        var popup_8a6b9deca741f5f3cc1f605799fdb6fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29f7aeb35de7a105a555fd5133360014 = $(`<div id="html_29f7aeb35de7a105a555fd5133360014" style="width: 100.0%; height: 100.0%;">Nebras Medical Centre (مركز نبراس الطبي)</div>`)[0];
+                popup_8a6b9deca741f5f3cc1f605799fdb6fc.setContent(html_29f7aeb35de7a105a555fd5133360014);
+            
+        
+
+        marker_f0be71eb0ade2d1b31ce24a93e199ef4.bindPopup(popup_8a6b9deca741f5f3cc1f605799fdb6fc)
+        ;
+
+        
+    
+    
+            var marker_ec6358d70c9262664b05ca4740d1281b = L.marker(
+                [24.824755, 46.640024],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_f9cca03da35c48269272f6077b61784f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ec6358d70c9262664b05ca4740d1281b.setIcon(icon_f9cca03da35c48269272f6077b61784f);
+        
+    
+        var popup_0987b79ec7be47a3737fea6f6ec0b5e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b70b7963bb084674f926ca2df54912bb = $(`<div id="html_b70b7963bb084674f926ca2df54912bb" style="width: 100.0%; height: 100.0%;">‪Aesthetica Clinic (عيادات اسثتيكا)</div>`)[0];
+                popup_0987b79ec7be47a3737fea6f6ec0b5e1.setContent(html_b70b7963bb084674f926ca2df54912bb);
+            
+        
+
+        marker_ec6358d70c9262664b05ca4740d1281b.bindPopup(popup_0987b79ec7be47a3737fea6f6ec0b5e1)
+        ;
+
+        
+    
+    
+            var marker_f9169f6ba3af8ff06e39599db1ebe864 = L.marker(
+                [24.695917, 46.772279],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_b1b7c06e72afd630547953f77d8e07be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9169f6ba3af8ff06e39599db1ebe864.setIcon(icon_b1b7c06e72afd630547953f77d8e07be);
+        
+    
+        var popup_6a74b52c2f7921cc209008b6bc4f8833 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8be2d839c58f6c631bbf011a74bb0b17 = $(`<div id="html_8be2d839c58f6c631bbf011a74bb0b17" style="width: 100.0%; height: 100.0%;">Light Clinic (عيادات لايت)</div>`)[0];
+                popup_6a74b52c2f7921cc209008b6bc4f8833.setContent(html_8be2d839c58f6c631bbf011a74bb0b17);
+            
+        
+
+        marker_f9169f6ba3af8ff06e39599db1ebe864.bindPopup(popup_6a74b52c2f7921cc209008b6bc4f8833)
+        ;
+
+        
+    
+    
+            var marker_c13240b050b2925bf891cea9133b5bf0 = L.marker(
+                [24.690541, 46.700302],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_a58ef49570b85ea7b7ef143c60365b4e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c13240b050b2925bf891cea9133b5bf0.setIcon(icon_a58ef49570b85ea7b7ef143c60365b4e);
+        
+    
+        var popup_9e8a4ade561622d5718c45a5b64a2874 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93138961b23880207ccea00769e8193b = $(`<div id="html_93138961b23880207ccea00769e8193b" style="width: 100.0%; height: 100.0%;">Care Medical Center (عيادات كير)</div>`)[0];
+                popup_9e8a4ade561622d5718c45a5b64a2874.setContent(html_93138961b23880207ccea00769e8193b);
+            
+        
+
+        marker_c13240b050b2925bf891cea9133b5bf0.bindPopup(popup_9e8a4ade561622d5718c45a5b64a2874)
+        ;
+
+        
+    
+    
+            var marker_e466b922a809c821f13b2152f140b96d = L.marker(
+                [24.60649972, 46.64203361],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_56d01bd452a9bbff98c24255d04fb0f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e466b922a809c821f13b2152f140b96d.setIcon(icon_56d01bd452a9bbff98c24255d04fb0f4);
+        
+    
+        var popup_8c13057152af1dab9cc2d5f405c1a91e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_330c70cd85c8c623ce66ecdfc0f12953 = $(`<div id="html_330c70cd85c8c623ce66ecdfc0f12953" style="width: 100.0%; height: 100.0%;">King Salman Hospital</div>`)[0];
+                popup_8c13057152af1dab9cc2d5f405c1a91e.setContent(html_330c70cd85c8c623ce66ecdfc0f12953);
+            
+        
+
+        marker_e466b922a809c821f13b2152f140b96d.bindPopup(popup_8c13057152af1dab9cc2d5f405c1a91e)
+        ;
+
+        
+    
+    
+            var marker_f697c68a7d0ffd71bcee2a2e52f31760 = L.marker(
+                [24.711178, 46.802364],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_184de3431aa2a488f3d5677807a9c5d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f697c68a7d0ffd71bcee2a2e52f31760.setIcon(icon_184de3431aa2a488f3d5677807a9c5d2);
+        
+    
+        var popup_8855b8c774ee498791fc5b6cfea937ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07c46b79a8799ec32abbac81a675b571 = $(`<div id="html_07c46b79a8799ec32abbac81a675b571" style="width: 100.0%; height: 100.0%;">Mohammed B. Naif Medical Center (مركز الأمير محمد بن نايف الطبي)</div>`)[0];
+                popup_8855b8c774ee498791fc5b6cfea937ca.setContent(html_07c46b79a8799ec32abbac81a675b571);
+            
+        
+
+        marker_f697c68a7d0ffd71bcee2a2e52f31760.bindPopup(popup_8855b8c774ee498791fc5b6cfea937ca)
+        ;
+
+        
+    
+    
+            var marker_dd80a74f9dda67b671a57d2d3bab81c7 = L.marker(
+                [24.607995, 46.732294],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_63745229ede70540b9c2eea16382310e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd80a74f9dda67b671a57d2d3bab81c7.setIcon(icon_63745229ede70540b9c2eea16382310e);
+        
+    
+        var popup_db39d1427969b16d719db930d13609b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcc5eb7082ea572d0aef8d441fc521c5 = $(`<div id="html_dcc5eb7082ea572d0aef8d441fc521c5" style="width: 100.0%; height: 100.0%;">My Health</div>`)[0];
+                popup_db39d1427969b16d719db930d13609b6.setContent(html_dcc5eb7082ea572d0aef8d441fc521c5);
+            
+        
+
+        marker_dd80a74f9dda67b671a57d2d3bab81c7.bindPopup(popup_db39d1427969b16d719db930d13609b6)
+        ;
+
+        
+    
+    
+            var marker_972fe7c3bc597486e79ae2f021562b9e = L.marker(
+                [24.789352, 46.681015],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_7452348e53d2f8bf85e5af45088f0623 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_972fe7c3bc597486e79ae2f021562b9e.setIcon(icon_7452348e53d2f8bf85e5af45088f0623);
+        
+    
+        var popup_8b847bcf437da146329a5d129f280358 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dac17df5b7f9a5e41e9c75a33964e82 = $(`<div id="html_1dac17df5b7f9a5e41e9c75a33964e82" style="width: 100.0%; height: 100.0%;">OxyHealth Clinics</div>`)[0];
+                popup_8b847bcf437da146329a5d129f280358.setContent(html_1dac17df5b7f9a5e41e9c75a33964e82);
+            
+        
+
+        marker_972fe7c3bc597486e79ae2f021562b9e.bindPopup(popup_8b847bcf437da146329a5d129f280358)
+        ;
+
+        
+    
+    
+            var marker_cfe94de3820ebb0f09dfff82f74766d7 = L.marker(
+                [24.679763, 46.687368],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_423945be11aa1ac27bae5e4337a6668a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cfe94de3820ebb0f09dfff82f74766d7.setIcon(icon_423945be11aa1ac27bae5e4337a6668a);
+        
+    
+        var popup_6998214aa6cae50d33ed5d5dc4091589 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5deb490609eb880a4f0e887fbb13cb45 = $(`<div id="html_5deb490609eb880a4f0e887fbb13cb45" style="width: 100.0%; height: 100.0%;">Specialized Medical Center (مستشفى التخصصي الطبي)</div>`)[0];
+                popup_6998214aa6cae50d33ed5d5dc4091589.setContent(html_5deb490609eb880a4f0e887fbb13cb45);
+            
+        
+
+        marker_cfe94de3820ebb0f09dfff82f74766d7.bindPopup(popup_6998214aa6cae50d33ed5d5dc4091589)
+        ;
+
+        
+    
+    
+            var marker_900d51956c2c5acec520014e0321d882 = L.marker(
+                [24.791011, 46.659253],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_dfe3d054cfa5580045c25486939e67a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_900d51956c2c5acec520014e0321d882.setIcon(icon_dfe3d054cfa5580045c25486939e67a1);
+        
+    
+        var popup_acb7cc41b7cf650d542426fa812e807b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bef80765007ab62b9dc8d94384bbe2e5 = $(`<div id="html_bef80765007ab62b9dc8d94384bbe2e5" style="width: 100.0%; height: 100.0%;">Kingdom Schools (مدارس المملكة)</div>`)[0];
+                popup_acb7cc41b7cf650d542426fa812e807b.setContent(html_bef80765007ab62b9dc8d94384bbe2e5);
+            
+        
+
+        marker_900d51956c2c5acec520014e0321d882.bindPopup(popup_acb7cc41b7cf650d542426fa812e807b)
+        ;
+
+        
+    
+    
+            var marker_c00359f1cd243189f499065cb94d25b6 = L.marker(
+                [24.595507, 46.635057],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_29bc8b8b3b002521175d28f2101f0a57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c00359f1cd243189f499065cb94d25b6.setIcon(icon_29bc8b8b3b002521175d28f2101f0a57);
+        
+    
+        var popup_63c72af32321d12c3e7c37d74a4ad800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dc00fe32a1d973fc1951b14f197ae9e = $(`<div id="html_1dc00fe32a1d973fc1951b14f197ae9e" style="width: 100.0%; height: 100.0%;">Almajd Private Schools (مدارس المجد الأهلية)</div>`)[0];
+                popup_63c72af32321d12c3e7c37d74a4ad800.setContent(html_1dc00fe32a1d973fc1951b14f197ae9e);
+            
+        
+
+        marker_c00359f1cd243189f499065cb94d25b6.bindPopup(popup_63c72af32321d12c3e7c37d74a4ad800)
+        ;
+
+        
+    
+    
+            var marker_61cd4d67463c0f465d200ff9fafb340b = L.marker(
+                [24.784652, 46.744273],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_b7ecebbd1d85699f976cd11baa1c6a12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61cd4d67463c0f465d200ff9fafb340b.setIcon(icon_b7ecebbd1d85699f976cd11baa1c6a12);
+        
+    
+        var popup_2c5310a9e4b38e9c091bfc2350aedfdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb14c692b7871f358e791b17c82c889d = $(`<div id="html_eb14c692b7871f358e791b17c82c889d" style="width: 100.0%; height: 100.0%;">Almotaqadimah Private Schools (مدارس المتقدمة الاهلية)</div>`)[0];
+                popup_2c5310a9e4b38e9c091bfc2350aedfdd.setContent(html_eb14c692b7871f358e791b17c82c889d);
+            
+        
+
+        marker_61cd4d67463c0f465d200ff9fafb340b.bindPopup(popup_2c5310a9e4b38e9c091bfc2350aedfdd)
+        ;
+
+        
+    
+    
+            var marker_f943922ad7303458b3adeb80d4976ccb = L.marker(
+                [24.6588, 46.691331],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_f61de9ac389c176340c02fdc475727a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f943922ad7303458b3adeb80d4976ccb.setIcon(icon_f61de9ac389c176340c02fdc475727a9);
+        
+    
+        var popup_05313e75796d73bb26da2ba6b969a494 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab8c0c48f617f6cd4b7a1d34b3beb63b = $(`<div id="html_ab8c0c48f617f6cd4b7a1d34b3beb63b" style="width: 100.0%; height: 100.0%;">روضة مدارس الرياض</div>`)[0];
+                popup_05313e75796d73bb26da2ba6b969a494.setContent(html_ab8c0c48f617f6cd4b7a1d34b3beb63b);
+            
+        
+
+        marker_f943922ad7303458b3adeb80d4976ccb.bindPopup(popup_05313e75796d73bb26da2ba6b969a494)
+        ;
+
+        
+    
+    
+            var marker_84218e1dd904c7b83d9027d15c72d83e = L.marker(
+                [24.860835, 46.725804],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_62dde77930416b5695447d0203e573bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_84218e1dd904c7b83d9027d15c72d83e.setIcon(icon_62dde77930416b5695447d0203e573bc);
+        
+    
+        var popup_33bf39cafb9f003ba0b964500b39abe4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c74712f6c0b20b0b51debc85aa05aadd = $(`<div id="html_c74712f6c0b20b0b51debc85aa05aadd" style="width: 100.0%; height: 100.0%;">SDS Saudi Driving School (المدرسة السعودية للقيادة)</div>`)[0];
+                popup_33bf39cafb9f003ba0b964500b39abe4.setContent(html_c74712f6c0b20b0b51debc85aa05aadd);
+            
+        
+
+        marker_84218e1dd904c7b83d9027d15c72d83e.bindPopup(popup_33bf39cafb9f003ba0b964500b39abe4)
+        ;
+
+        
+    
+    
+            var marker_ac9f1e2443f05f4b9e83025ae56f7243 = L.marker(
+                [24.896457, 46.706279],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_aa34ed5d8cf8ba3e8eba480d1092b97c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac9f1e2443f05f4b9e83025ae56f7243.setIcon(icon_aa34ed5d8cf8ba3e8eba480d1092b97c);
+        
+    
+        var popup_fc2cbe9cfcf06f3c5cd9303a267338d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3c816a7df2ccd11e8a745ab75798e1c = $(`<div id="html_e3c816a7df2ccd11e8a745ab75798e1c" style="width: 100.0%; height: 100.0%;">Rwdat Abu Bader Alshamry (روضة ابو بدر الشمري)</div>`)[0];
+                popup_fc2cbe9cfcf06f3c5cd9303a267338d8.setContent(html_e3c816a7df2ccd11e8a745ab75798e1c);
+            
+        
+
+        marker_ac9f1e2443f05f4b9e83025ae56f7243.bindPopup(popup_fc2cbe9cfcf06f3c5cd9303a267338d8)
+        ;
+
+        
+    
+    
+            var marker_57a9828d71a129d143ee8eae07f6f54a = L.marker(
+                [24.7853, 46.846867],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_d73290c4b86eb68ce9040eab5e45053b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57a9828d71a129d143ee8eae07f6f54a.setIcon(icon_d73290c4b86eb68ce9040eab5e45053b);
+        
+    
+        var popup_b602b574ebf46e709fe5811548a2e2c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f044ca82668488ac321df83fa272623 = $(`<div id="html_9f044ca82668488ac321df83fa272623" style="width: 100.0%; height: 100.0%;">الي روضة خريم</div>`)[0];
+                popup_b602b574ebf46e709fe5811548a2e2c5.setContent(html_9f044ca82668488ac321df83fa272623);
+            
+        
+
+        marker_57a9828d71a129d143ee8eae07f6f54a.bindPopup(popup_b602b574ebf46e709fe5811548a2e2c5)
+        ;
+
+        
+    
+    
+            var marker_dee0a41feb0026cd2fefee047b06af13 = L.marker(
+                [24.72538599, 46.63853246],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_e901c3e1d1d54eef06069478ecbf7f74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dee0a41feb0026cd2fefee047b06af13.setIcon(icon_e901c3e1d1d54eef06069478ecbf7f74);
+        
+    
+        var popup_4f6e8a6d8ec180bacc5d451d6901919d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c449cf8e56600dfe148188ee9695e14 = $(`<div id="html_7c449cf8e56600dfe148188ee9695e14" style="width: 100.0%; height: 100.0%;">KSU girls campus</div>`)[0];
+                popup_4f6e8a6d8ec180bacc5d451d6901919d.setContent(html_7c449cf8e56600dfe148188ee9695e14);
+            
+        
+
+        marker_dee0a41feb0026cd2fefee047b06af13.bindPopup(popup_4f6e8a6d8ec180bacc5d451d6901919d)
+        ;
+
+        
+    
+    
+            var marker_5b530aa8c73c74780b82a004ce0150b9 = L.marker(
+                [24.661639, 46.755912],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_3d21b52314059f351c3c2b2f9326a339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b530aa8c73c74780b82a004ce0150b9.setIcon(icon_3d21b52314059f351c3c2b2f9326a339);
+        
+    
+        var popup_00105d7b8a357619ea8311355d9ed475 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036729d26be9df2275846d657dadc28e = $(`<div id="html_036729d26be9df2275846d657dadc28e" style="width: 100.0%; height: 100.0%;">International Riding School (مدرسة الفروسية الدولية)</div>`)[0];
+                popup_00105d7b8a357619ea8311355d9ed475.setContent(html_036729d26be9df2275846d657dadc28e);
+            
+        
+
+        marker_5b530aa8c73c74780b82a004ce0150b9.bindPopup(popup_00105d7b8a357619ea8311355d9ed475)
+        ;
+
+        
+    
+    
+            var marker_5a82fee8062c5622992b0787cb82ee52 = L.marker(
+                [24.951914, 46.652722],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_aaee88beb5454f4132a88e02c7df7371 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a82fee8062c5622992b0787cb82ee52.setIcon(icon_aaee88beb5454f4132a88e02c7df7371);
+        
+    
+        var popup_ee3cfc691d5d6fba5120cc7d0084db2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c927cd3fcb3b6ab9868dd03423314f80 = $(`<div id="html_c927cd3fcb3b6ab9868dd03423314f80" style="width: 100.0%; height: 100.0%;">King Khalid Internation Airport Schools (مدارس مطار الملك خالد الدولي)</div>`)[0];
+                popup_ee3cfc691d5d6fba5120cc7d0084db2c.setContent(html_c927cd3fcb3b6ab9868dd03423314f80);
+            
+        
+
+        marker_5a82fee8062c5622992b0787cb82ee52.bindPopup(popup_ee3cfc691d5d6fba5120cc7d0084db2c)
+        ;
+
+        
+    
+    
+            var marker_ce055a131f2468610cca0a84d9b69b5a = L.marker(
+                [24.776793, 46.823015],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_c5c9d17e0c739a58e4dc704cd2925ab7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce055a131f2468610cca0a84d9b69b5a.setIcon(icon_c5c9d17e0c739a58e4dc704cd2925ab7);
+        
+    
+        var popup_e67ab62fb42fa34cc5b5d1eb2a6f39d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_254f84f5a30e95549c9e108f5a595fa0 = $(`<div id="html_254f84f5a30e95549c9e108f5a595fa0" style="width: 100.0%; height: 100.0%;">Fityou Fitness | Gym & Spa</div>`)[0];
+                popup_e67ab62fb42fa34cc5b5d1eb2a6f39d2.setContent(html_254f84f5a30e95549c9e108f5a595fa0);
+            
+        
+
+        marker_ce055a131f2468610cca0a84d9b69b5a.bindPopup(popup_e67ab62fb42fa34cc5b5d1eb2a6f39d2)
+        ;
+
+        
+    
+    
+            var marker_8e88855eaac8a80499edb2e6b860594e = L.marker(
+                [24.691618, 46.765942],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_b8a6ce70d29c00c525c63d088f53ed68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e88855eaac8a80499edb2e6b860594e.setIcon(icon_b8a6ce70d29c00c525c63d088f53ed68);
+        
+    
+        var popup_5ff1870ca50e7810eb0561bf3d188024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad7a4224e8c00d5cb7918d50be6e9cd = $(`<div id="html_8ad7a4224e8c00d5cb7918d50be6e9cd" style="width: 100.0%; height: 100.0%;">Nails Tales Spa</div>`)[0];
+                popup_5ff1870ca50e7810eb0561bf3d188024.setContent(html_8ad7a4224e8c00d5cb7918d50be6e9cd);
+            
+        
+
+        marker_8e88855eaac8a80499edb2e6b860594e.bindPopup(popup_5ff1870ca50e7810eb0561bf3d188024)
+        ;
+
+        
+    
+    
+            var marker_66119269866d8f1839d3c1ca861e8983 = L.marker(
+                [24.688247, 46.802913],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_05daba963baf6aea1cd81013e42ed5bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66119269866d8f1839d3c1ca861e8983.setIcon(icon_05daba963baf6aea1cd81013e42ed5bd);
+        
+    
+        var popup_4563925c61f75596bcff7ab8f4b09baf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2914a001aac7a5a20f56809437f72f57 = $(`<div id="html_2914a001aac7a5a20f56809437f72f57" style="width: 100.0%; height: 100.0%;">Golden Dune Hotel Riyadh</div>`)[0];
+                popup_4563925c61f75596bcff7ab8f4b09baf.setContent(html_2914a001aac7a5a20f56809437f72f57);
+            
+        
+
+        marker_66119269866d8f1839d3c1ca861e8983.bindPopup(popup_4563925c61f75596bcff7ab8f4b09baf)
+        ;
+
+        
+    
+    
+            var marker_dfbcdf1704b370276f09fbae5caff8a9 = L.marker(
+                [24.96126527, 46.70230028],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_7c776980be7261574d8e37cab755a980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfbcdf1704b370276f09fbae5caff8a9.setIcon(icon_7c776980be7261574d8e37cab755a980);
+        
+    
+        var popup_361e8687ac248df2c3ad701b8dd49f2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdb76ce73462ffd61c251c8a066ff6db = $(`<div id="html_bdb76ce73462ffd61c251c8a066ff6db" style="width: 100.0%; height: 100.0%;">King Khalid International Airport 2</div>`)[0];
+                popup_361e8687ac248df2c3ad701b8dd49f2d.setContent(html_bdb76ce73462ffd61c251c8a066ff6db);
+            
+        
+
+        marker_dfbcdf1704b370276f09fbae5caff8a9.bindPopup(popup_361e8687ac248df2c3ad701b8dd49f2d)
+        ;
+
+        
+    
+    
+            var marker_26335e59705f30542294eefa18a10030 = L.marker(
+                [24.7839501, 46.8187463],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_17b04de842e69bb822307b58b88c95ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26335e59705f30542294eefa18a10030.setIcon(icon_17b04de842e69bb822307b58b88c95ed);
+        
+    
+        var popup_ddc655c502c806b44d1562412b7fd4cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb637bf54ca889debe1e65bfc140e134 = $(`<div id="html_fb637bf54ca889debe1e65bfc140e134" style="width: 100.0%; height: 100.0%;">Ibnul-Haitham 104</div>`)[0];
+                popup_ddc655c502c806b44d1562412b7fd4cd.setContent(html_fb637bf54ca889debe1e65bfc140e134);
+            
+        
+
+        marker_26335e59705f30542294eefa18a10030.bindPopup(popup_ddc655c502c806b44d1562412b7fd4cd)
+        ;
+
+        
+    
+    
+            var marker_889ce5dbca86e0d9c1345d1c555b84b3 = L.marker(
+                [24.5810653, 46.6168769],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_8fe5efad380b08111534643406081985 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_889ce5dbca86e0d9c1345d1c555b84b3.setIcon(icon_8fe5efad380b08111534643406081985);
+        
+    
+        var popup_ced814a4a548bd5504d28ed87c8df5ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f40642c8418e5a3e628d0e7605438385 = $(`<div id="html_f40642c8418e5a3e628d0e7605438385" style="width: 100.0%; height: 100.0%;">As-Suwaidi Al-Gharbi 601</div>`)[0];
+                popup_ced814a4a548bd5504d28ed87c8df5ae.setContent(html_f40642c8418e5a3e628d0e7605438385);
+            
+        
+
+        marker_889ce5dbca86e0d9c1345d1c555b84b3.bindPopup(popup_ced814a4a548bd5504d28ed87c8df5ae)
+        ;
+
+        
+    
+    
+            var marker_0acded437ea5f9bf7652f9ee9406b392 = L.marker(
+                [24.6289022, 46.7158802],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_30beb18e62d148640029bf8b944d9b56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0acded437ea5f9bf7652f9ee9406b392.setIcon(icon_30beb18e62d148640029bf8b944d9b56);
+        
+    
+        var popup_29133136cd81788f587c83b31cdf99ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2404cecaa596a239b9913bfc005cf5c4 = $(`<div id="html_2404cecaa596a239b9913bfc005cf5c4" style="width: 100.0%; height: 100.0%;">Madina Munwarah 321</div>`)[0];
+                popup_29133136cd81788f587c83b31cdf99ea.setContent(html_2404cecaa596a239b9913bfc005cf5c4);
+            
+        
+
+        marker_0acded437ea5f9bf7652f9ee9406b392.bindPopup(popup_29133136cd81788f587c83b31cdf99ea)
+        ;
+
+        
+    
+    
+            var marker_58901559f3c7622c62aafd47e9a62e8f = L.marker(
+                [24.7246925, 46.6534653],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_6ad8bea93169bd6887af3d79a3db33f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_58901559f3c7622c62aafd47e9a62e8f.setIcon(icon_6ad8bea93169bd6887af3d79a3db33f5);
+        
+    
+        var popup_cb03789ab190cd522c392ae3f15d1a3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1aa7d89ddf5c09b402b99bd0797ba0e = $(`<div id="html_d1aa7d89ddf5c09b402b99bd0797ba0e" style="width: 100.0%; height: 100.0%;">Takhassusi 107</div>`)[0];
+                popup_cb03789ab190cd522c392ae3f15d1a3c.setContent(html_d1aa7d89ddf5c09b402b99bd0797ba0e);
+            
+        
+
+        marker_58901559f3c7622c62aafd47e9a62e8f.bindPopup(popup_cb03789ab190cd522c392ae3f15d1a3c)
+        ;
+
+        
+    
+    
+            var marker_3338483c717fa8ed6874ee9b0f22caf2 = L.marker(
+                [24.7172833, 46.6385443],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_ad4e2e4fc0c39439501c0b19a2aa1cf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3338483c717fa8ed6874ee9b0f22caf2.setIcon(icon_ad4e2e4fc0c39439501c0b19a2aa1cf4);
+        
+    
+        var popup_694d10ece0e2974dcb1662016942650e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa828beac09acf3fcc96509fb1713d2c = $(`<div id="html_fa828beac09acf3fcc96509fb1713d2c" style="width: 100.0%; height: 100.0%;">King Abdullah 405</div>`)[0];
+                popup_694d10ece0e2974dcb1662016942650e.setContent(html_fa828beac09acf3fcc96509fb1713d2c);
+            
+        
+
+        marker_3338483c717fa8ed6874ee9b0f22caf2.bindPopup(popup_694d10ece0e2974dcb1662016942650e)
+        ;
+
+        
+    
+    
+            var marker_5dbf270893eed24937df6d20b7015a9b = L.marker(
+                [24.7091719, 46.709053],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_54469c9099b085a8a9aa5b499377115b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5dbf270893eed24937df6d20b7015a9b.setIcon(icon_54469c9099b085a8a9aa5b499377115b);
+        
+    
+        var popup_5fb16d7697d5ac48d0bb8a80efb7a644 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dff6f17663f96ebe92610d67e4c12c1 = $(`<div id="html_1dff6f17663f96ebe92610d67e4c12c1" style="width: 100.0%; height: 100.0%;">King Abdulaziz 08 A</div>`)[0];
+                popup_5fb16d7697d5ac48d0bb8a80efb7a644.setContent(html_1dff6f17663f96ebe92610d67e4c12c1);
+            
+        
+
+        marker_5dbf270893eed24937df6d20b7015a9b.bindPopup(popup_5fb16d7697d5ac48d0bb8a80efb7a644)
+        ;
+
+        
+    
+    
+            var marker_eae7039a2dfed528e10d5f17c13fecba = L.marker(
+                [24.5855909, 46.5596722],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_2fa3e7260416ad3ffa23434bbc380f06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eae7039a2dfed528e10d5f17c13fecba.setIcon(icon_2fa3e7260416ad3ffa23434bbc380f06);
+        
+    
+        var popup_23ed02c7088b5c18770ff9a3cfc93ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ab4050ffea447b7fe358371fb259b8c = $(`<div id="html_1ab4050ffea447b7fe358371fb259b8c" style="width: 100.0%; height: 100.0%;">Khadijah Bint Khuwailid 411</div>`)[0];
+                popup_23ed02c7088b5c18770ff9a3cfc93ec7.setContent(html_1ab4050ffea447b7fe358371fb259b8c);
+            
+        
+
+        marker_eae7039a2dfed528e10d5f17c13fecba.bindPopup(popup_23ed02c7088b5c18770ff9a3cfc93ec7)
+        ;
+
+        
+    
+    
+            var marker_0334c24b9cbc6eead5b03e1b586b8cb2 = L.marker(
+                [24.6181309, 46.7250341],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_cc7ffcebe43b2cc0fbbfe9c7e42d8a92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0334c24b9cbc6eead5b03e1b586b8cb2.setIcon(icon_cc7ffcebe43b2cc0fbbfe9c7e42d8a92);
+        
+    
+        var popup_3036bfd81a7d3cd4be7bd6576bf6f3e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35e1945d26b029ce2474ccad7f6c8d94 = $(`<div id="html_35e1945d26b029ce2474ccad7f6c8d94" style="width: 100.0%; height: 100.0%;">Al Batha 106A</div>`)[0];
+                popup_3036bfd81a7d3cd4be7bd6576bf6f3e6.setContent(html_35e1945d26b029ce2474ccad7f6c8d94);
+            
+        
+
+        marker_0334c24b9cbc6eead5b03e1b586b8cb2.bindPopup(popup_3036bfd81a7d3cd4be7bd6576bf6f3e6)
+        ;
+
+        
+    
+    
+            var marker_f9f44a49bfc547f6372fb0e6cfbcba9e = L.marker(
+                [24.6153951, 46.6872959],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_d7cb1263d1a8035455b66641acbf7a09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f9f44a49bfc547f6372fb0e6cfbcba9e.setIcon(icon_d7cb1263d1a8035455b66641acbf7a09);
+        
+    
+        var popup_59d519c492eb4c62c26ecc3316d50a47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31ac43365f7e0d4db5d7c1a549b26aed = $(`<div id="html_31ac43365f7e0d4db5d7c1a549b26aed" style="width: 100.0%; height: 100.0%;">Madina Munwarah 415</div>`)[0];
+                popup_59d519c492eb4c62c26ecc3316d50a47.setContent(html_31ac43365f7e0d4db5d7c1a549b26aed);
+            
+        
+
+        marker_f9f44a49bfc547f6372fb0e6cfbcba9e.bindPopup(popup_59d519c492eb4c62c26ecc3316d50a47)
+        ;
+
+        
+    
+    
+            var marker_e9820cfd50a65a9791ec5abc7e010247 = L.marker(
+                [24.7110815, 46.6288784],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_a6e8b28d7523baaaf8ad80284808d3c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e9820cfd50a65a9791ec5abc7e010247.setIcon(icon_a6e8b28d7523baaaf8ad80284808d3c5);
+        
+    
+        var popup_3f4379ede55e35f9ad033a7ee519ae7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc1ac48e4e0f3de9b312f4e8ac948d3 = $(`<div id="html_1cc1ac48e4e0f3de9b312f4e8ac948d3" style="width: 100.0%; height: 100.0%;">KSU 604</div>`)[0];
+                popup_3f4379ede55e35f9ad033a7ee519ae7b.setContent(html_1cc1ac48e4e0f3de9b312f4e8ac948d3);
+            
+        
+
+        marker_e9820cfd50a65a9791ec5abc7e010247.bindPopup(popup_3f4379ede55e35f9ad033a7ee519ae7b)
+        ;
+
+        
+    
+    
+            var marker_d9bcedbd7a1aa160bbef8d18b65e131c = L.marker(
+                [24.7164836, 46.8459204],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_c08a37aef212f1f85d210f1ab9932cfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9bcedbd7a1aa160bbef8d18b65e131c.setIcon(icon_c08a37aef212f1f85d210f1ab9932cfe);
+        
+    
+        var popup_45a44233b9d0ccc03489d1f15aa2831b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef1e136c4d55decad2348123b7019f77 = $(`<div id="html_ef1e136c4d55decad2348123b7019f77" style="width: 100.0%; height: 100.0%;">Hassan Bin Thabit 210</div>`)[0];
+                popup_45a44233b9d0ccc03489d1f15aa2831b.setContent(html_ef1e136c4d55decad2348123b7019f77);
+            
+        
+
+        marker_d9bcedbd7a1aa160bbef8d18b65e131c.bindPopup(popup_45a44233b9d0ccc03489d1f15aa2831b)
+        ;
+
+        
+    
+    
+            var marker_d7d9decf1f57708265a0c8d185ddcebe = L.marker(
+                [24.6263953, 46.711721],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_36f3364b76e6644b75ee4cdf64c5f938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7d9decf1f57708265a0c8d185ddcebe.setIcon(icon_36f3364b76e6644b75ee4cdf64c5f938);
+        
+    
+        var popup_bb8c131097ca13182601f6a9244ed887 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4ce06a66ce53a12b0500ee92b01182 = $(`<div id="html_4f4ce06a66ce53a12b0500ee92b01182" style="width: 100.0%; height: 100.0%;">Madina Munwarah 320</div>`)[0];
+                popup_bb8c131097ca13182601f6a9244ed887.setContent(html_4f4ce06a66ce53a12b0500ee92b01182);
+            
+        
+
+        marker_d7d9decf1f57708265a0c8d185ddcebe.bindPopup(popup_bb8c131097ca13182601f6a9244ed887)
+        ;
+
+        
+    
+    
+            var marker_92187e67e6dbe53436d3b99031880dfc = L.marker(
+                [24.7867964, 46.7297143],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_a1a94f49adad58176a1117a270cadfa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_92187e67e6dbe53436d3b99031880dfc.setIcon(icon_a1a94f49adad58176a1117a270cadfa8);
+        
+    
+        var popup_1e92182bbe98266fd1e172d6a002c26d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2b51835386797ac0e2fbf983429755e = $(`<div id="html_f2b51835386797ac0e2fbf983429755e" style="width: 100.0%; height: 100.0%;">Abi Jafar Al Mansoor 401</div>`)[0];
+                popup_1e92182bbe98266fd1e172d6a002c26d.setContent(html_f2b51835386797ac0e2fbf983429755e);
+            
+        
+
+        marker_92187e67e6dbe53436d3b99031880dfc.bindPopup(popup_1e92182bbe98266fd1e172d6a002c26d)
+        ;
+
+        
+    
+    
+            var marker_27f5dd20c17329f1c228c6c6c3abca67 = L.marker(
+                [24.7913716, 46.7668776],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_22887141c825c741e4e0045e9b5503a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27f5dd20c17329f1c228c6c6c3abca67.setIcon(icon_22887141c825c741e4e0045e9b5503a4);
+        
+    
+        var popup_6c627bca1bd3f37ed36ad10cfa7f83ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11531cd167fb66d74383600e9cfb86f2 = $(`<div id="html_11531cd167fb66d74383600e9cfb86f2" style="width: 100.0%; height: 100.0%;">Al-Hamra 506</div>`)[0];
+                popup_6c627bca1bd3f37ed36ad10cfa7f83ff.setContent(html_11531cd167fb66d74383600e9cfb86f2);
+            
+        
+
+        marker_27f5dd20c17329f1c228c6c6c3abca67.bindPopup(popup_6c627bca1bd3f37ed36ad10cfa7f83ff)
+        ;
+
+        
+    
+    
+            var marker_3bb0e90196d4e4d8bac28369a8cfa6e3 = L.marker(
+                [24.6598227, 46.7043459],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_81972641a74407aa9d532b1468e03937 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3bb0e90196d4e4d8bac28369a8cfa6e3.setIcon(icon_81972641a74407aa9d532b1468e03937);
+        
+    
+        var popup_3a1eb11c47329ff533910a91e36d852f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6150c8c903f805f8751a866ccd152462 = $(`<div id="html_6150c8c903f805f8751a866ccd152462" style="width: 100.0%; height: 100.0%;">King Faisal 204</div>`)[0];
+                popup_3a1eb11c47329ff533910a91e36d852f.setContent(html_6150c8c903f805f8751a866ccd152462);
+            
+        
+
+        marker_3bb0e90196d4e4d8bac28369a8cfa6e3.bindPopup(popup_3a1eb11c47329ff533910a91e36d852f)
+        ;
+
+        
+    
+    
+            var marker_2dfae27f6299ce8355dd6c5e97ccee8f = L.marker(
+                [24.7408965, 46.7986061],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_a47764cb5305f1dbdbd8dd5bfb7df09f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2dfae27f6299ce8355dd6c5e97ccee8f.setIcon(icon_a47764cb5305f1dbdbd8dd5bfb7df09f);
+        
+    
+        var popup_9df1d53b4564a1427eeedc4dbf80c9a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92dc95644df71b51a92a834cb1e83c2c = $(`<div id="html_92dc95644df71b51a92a834cb1e83c2c" style="width: 100.0%; height: 100.0%;">Ibn Al Talaa 201</div>`)[0];
+                popup_9df1d53b4564a1427eeedc4dbf80c9a8.setContent(html_92dc95644df71b51a92a834cb1e83c2c);
+            
+        
+
+        marker_2dfae27f6299ce8355dd6c5e97ccee8f.bindPopup(popup_9df1d53b4564a1427eeedc4dbf80c9a8)
+        ;
+
+        
+    
+    
+            var marker_a3ce279eb7a6045f3d146b5f94f1a429 = L.marker(
+                [24.8296873, 46.6166613],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_23e529648718b176f0792206c619d2f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a3ce279eb7a6045f3d146b5f94f1a429.setIcon(icon_23e529648718b176f0792206c619d2f8);
+        
+    
+        var popup_5303857d601a3d1d8de61088294c00ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58aceeced8b759c641398cfe47226a99 = $(`<div id="html_58aceeced8b759c641398cfe47226a99" style="width: 100.0%; height: 100.0%;">Olaya 201</div>`)[0];
+                popup_5303857d601a3d1d8de61088294c00ea.setContent(html_58aceeced8b759c641398cfe47226a99);
+            
+        
+
+        marker_a3ce279eb7a6045f3d146b5f94f1a429.bindPopup(popup_5303857d601a3d1d8de61088294c00ea)
+        ;
+
+        
+    
+    
+            var marker_33f3337e1ce9f2c25dd7ae747eb50dc9 = L.marker(
+                [24.6857159, 46.7909435],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_0cf8663b5b801cfb7f0446a540576ac7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_33f3337e1ce9f2c25dd7ae747eb50dc9.setIcon(icon_0cf8663b5b801cfb7f0446a540576ac7);
+        
+    
+        var popup_e6f0d6d5560b102c7c442a830a3ef2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a583648479b85d91757681f28f82f0e = $(`<div id="html_1a583648479b85d91757681f28f82f0e" style="width: 100.0%; height: 100.0%;">Unayzah 208</div>`)[0];
+                popup_e6f0d6d5560b102c7c442a830a3ef2f7.setContent(html_1a583648479b85d91757681f28f82f0e);
+            
+        
+
+        marker_33f3337e1ce9f2c25dd7ae747eb50dc9.bindPopup(popup_e6f0d6d5560b102c7c442a830a3ef2f7)
+        ;
+
+        
+    
+    
+            var marker_f225067fd2a5ee0408f48e449b3e2a68 = L.marker(
+                [24.6805083, 46.7258336],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_9136bdfe8093342680330286d752d5d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f225067fd2a5ee0408f48e449b3e2a68.setIcon(icon_9136bdfe8093342680330286d752d5d8);
+        
+    
+        var popup_abda84a2479c31034126b8734f519214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2f17972c1d58313c2ea71617ad8fa1f = $(`<div id="html_d2f17972c1d58313c2ea71617ad8fa1f" style="width: 100.0%; height: 100.0%;">Salahuddin Al Ayubi 103</div>`)[0];
+                popup_abda84a2479c31034126b8734f519214.setContent(html_d2f17972c1d58313c2ea71617ad8fa1f);
+            
+        
+
+        marker_f225067fd2a5ee0408f48e449b3e2a68.bindPopup(popup_abda84a2479c31034126b8734f519214)
+        ;
+
+        
+    
+    
+            var marker_62f50f61a045f14bb1e9f59896f5241a = L.marker(
+                [24.6074077, 46.6546241],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_bfd2e550896e7e1ec2556330344356d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62f50f61a045f14bb1e9f59896f5241a.setIcon(icon_bfd2e550896e7e1ec2556330344356d2);
+        
+    
+        var popup_1007f9a5e699b39f4a186687e53920f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3eb1505ea6f23108346e862536c5832 = $(`<div id="html_e3eb1505ea6f23108346e862536c5832" style="width: 100.0%; height: 100.0%;">Madina Munwarah 413</div>`)[0];
+                popup_1007f9a5e699b39f4a186687e53920f7.setContent(html_e3eb1505ea6f23108346e862536c5832);
+            
+        
+
+        marker_62f50f61a045f14bb1e9f59896f5241a.bindPopup(popup_1007f9a5e699b39f4a186687e53920f7)
+        ;
+
+        
+    
+    
+            var marker_3bfecb464a76b884495953e0c1e5b274 = L.marker(
+                [24.7113589, 46.8179558],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_fa04e90f003b16086ff2a8029ba788f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3bfecb464a76b884495953e0c1e5b274.setIcon(icon_fa04e90f003b16086ff2a8029ba788f4);
+        
+    
+        var popup_90257ad01cb127da6152efadb63cf675 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a6eb4b109be71bee7933e8fb2afabd7 = $(`<div id="html_8a6eb4b109be71bee7933e8fb2afabd7" style="width: 100.0%; height: 100.0%;">Zubair Bin Al-'Awam 410</div>`)[0];
+                popup_90257ad01cb127da6152efadb63cf675.setContent(html_8a6eb4b109be71bee7933e8fb2afabd7);
+            
+        
+
+        marker_3bfecb464a76b884495953e0c1e5b274.bindPopup(popup_90257ad01cb127da6152efadb63cf675)
+        ;
+
+        
+    
+    
+            var marker_4d6fe98ef4eaedc9f1f74d8130b464a2 = L.marker(
+                [24.6031198, 46.7409612],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_dd60a7b148e7e748064b50506d36f57b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d6fe98ef4eaedc9f1f74d8130b464a2.setIcon(icon_dd60a7b148e7e748064b50506d36f57b);
+        
+    
+        var popup_aa0df51b0eeb581a812fda3cea5d6987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5086c1a47d270932d10a1f9ce4da567d = $(`<div id="html_5086c1a47d270932d10a1f9ce4da567d" style="width: 100.0%; height: 100.0%;">Mali 401</div>`)[0];
+                popup_aa0df51b0eeb581a812fda3cea5d6987.setContent(html_5086c1a47d270932d10a1f9ce4da567d);
+            
+        
+
+        marker_4d6fe98ef4eaedc9f1f74d8130b464a2.bindPopup(popup_aa0df51b0eeb581a812fda3cea5d6987)
+        ;
+
+        
+    
+    
+            var marker_d31bde9bbd4e88c73217db473779371a = L.marker(
+                [24.8036121, 46.6952459],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_4d91d6732bfe2ee79d44453e6dac2a27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d31bde9bbd4e88c73217db473779371a.setIcon(icon_4d91d6732bfe2ee79d44453e6dac2a27);
+        
+    
+        var popup_298d36a64ed2f28604e7d3cbf85909cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9b8ebc934a954168fd8f8afb82ac947 = $(`<div id="html_b9b8ebc934a954168fd8f8afb82ac947" style="width: 100.0%; height: 100.0%;">Othman Bin Affan 207</div>`)[0];
+                popup_298d36a64ed2f28604e7d3cbf85909cd.setContent(html_b9b8ebc934a954168fd8f8afb82ac947);
+            
+        
+
+        marker_d31bde9bbd4e88c73217db473779371a.bindPopup(popup_298d36a64ed2f28604e7d3cbf85909cd)
+        ;
+
+        
+    
+    
+            var marker_b5c127cf83a80b442bd85b44ebedf1a1 = L.marker(
+                [24.6664761, 46.7018575],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_2941814b20a09e6382cfba668e014f78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b5c127cf83a80b442bd85b44ebedf1a1.setIcon(icon_2941814b20a09e6382cfba668e014f78);
+        
+    
+        var popup_65d9767e3dc514f8742f49ad1e987186 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48cd387d0153bbbc2a8cdaef244f8697 = $(`<div id="html_48cd387d0153bbbc2a8cdaef244f8697" style="width: 100.0%; height: 100.0%;">King Faisal 202</div>`)[0];
+                popup_65d9767e3dc514f8742f49ad1e987186.setContent(html_48cd387d0153bbbc2a8cdaef244f8697);
+            
+        
+
+        marker_b5c127cf83a80b442bd85b44ebedf1a1.bindPopup(popup_65d9767e3dc514f8742f49ad1e987186)
+        ;
+
+        
+    
+    
+            var marker_836fa5adc6557b30f930f75382f73610 = L.marker(
+                [24.7760469, 46.6400624],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_3faf6ca7f2e0f98ded47ade2316eadaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_836fa5adc6557b30f930f75382f73610.setIcon(icon_3faf6ca7f2e0f98ded47ade2316eadaa);
+        
+    
+        var popup_7f32061174b5c48ec975b15f59715fa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b322f5b8d9e07d3e5777dd5f1fe3ed8 = $(`<div id="html_5b322f5b8d9e07d3e5777dd5f1fe3ed8" style="width: 100.0%; height: 100.0%;">King Fahd 201</div>`)[0];
+                popup_7f32061174b5c48ec975b15f59715fa2.setContent(html_5b322f5b8d9e07d3e5777dd5f1fe3ed8);
+            
+        
+
+        marker_836fa5adc6557b30f930f75382f73610.bindPopup(popup_7f32061174b5c48ec975b15f59715fa2)
+        ;
+
+        
+    
+    
+            var marker_23847b86acef60de2714c876b3fcc4d4 = L.marker(
+                [24.585983, 46.6121967],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_460e0b79005f963583d223ff6f3c1a0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23847b86acef60de2714c876b3fcc4d4.setIcon(icon_460e0b79005f963583d223ff6f3c1a0f);
+        
+    
+        var popup_f71092b69a0d83d08ddbad5f5968a5f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcb7b190ccd17295b81e611aa180db39 = $(`<div id="html_bcb7b190ccd17295b81e611aa180db39" style="width: 100.0%; height: 100.0%;">Ibn Al Muqaffa 201</div>`)[0];
+                popup_f71092b69a0d83d08ddbad5f5968a5f0.setContent(html_bcb7b190ccd17295b81e611aa180db39);
+            
+        
+
+        marker_23847b86acef60de2714c876b3fcc4d4.bindPopup(popup_f71092b69a0d83d08ddbad5f5968a5f0)
+        ;
+
+        
+    
+    
+            var marker_fd200f0d2d601d58b94ab242e562e70b = L.marker(
+                [24.7882644, 46.758694],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_d0b388256e6278be4afe7d4cdd169445 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd200f0d2d601d58b94ab242e562e70b.setIcon(icon_d0b388256e6278be4afe7d4cdd169445);
+        
+    
+        var popup_8488dde366516f115262ef9bf498c4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60c1bbb68771e7e3feb10bd8ac37c2f3 = $(`<div id="html_60c1bbb68771e7e3feb10bd8ac37c2f3" style="width: 100.0%; height: 100.0%;">Al-Hamra 605</div>`)[0];
+                popup_8488dde366516f115262ef9bf498c4d4.setContent(html_60c1bbb68771e7e3feb10bd8ac37c2f3);
+            
+        
+
+        marker_fd200f0d2d601d58b94ab242e562e70b.bindPopup(popup_8488dde366516f115262ef9bf498c4d4)
+        ;
+
+        
+    
+    
+            var marker_561e335429af56847e43a633253e5b8c = L.marker(
+                [24.6473232, 46.7126912],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_ce4dd0208138146c94928914b892fff1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_561e335429af56847e43a633253e5b8c.setIcon(icon_ce4dd0208138146c94928914b892fff1);
+        
+    
+        var popup_c09a9e85299338b0ede9025d86dd0901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec7ef2af95ab9bd2dd07536298bd5ebf = $(`<div id="html_ec7ef2af95ab9bd2dd07536298bd5ebf" style="width: 100.0%; height: 100.0%;">King Faisal 207</div>`)[0];
+                popup_c09a9e85299338b0ede9025d86dd0901.setContent(html_ec7ef2af95ab9bd2dd07536298bd5ebf);
+            
+        
+
+        marker_561e335429af56847e43a633253e5b8c.bindPopup(popup_c09a9e85299338b0ede9025d86dd0901)
+        ;
+
+        
+    
+    
+            var marker_7cf237753b0c4d2fdbf4082944672d3f = L.marker(
+                [24.7119465, 46.6299744],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_d48920675ce1f71a4f3dc1edd3375a6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7cf237753b0c4d2fdbf4082944672d3f.setIcon(icon_d48920675ce1f71a4f3dc1edd3375a6e);
+        
+    
+        var popup_0cfc9d20963ee73efadf34659ba104d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_679edf6f151c579c7656a3af42b4b428 = $(`<div id="html_679edf6f151c579c7656a3af42b4b428" style="width: 100.0%; height: 100.0%;">KSU 504</div>`)[0];
+                popup_0cfc9d20963ee73efadf34659ba104d4.setContent(html_679edf6f151c579c7656a3af42b4b428);
+            
+        
+
+        marker_7cf237753b0c4d2fdbf4082944672d3f.bindPopup(popup_0cfc9d20963ee73efadf34659ba104d4)
+        ;
+
+        
+    
+    
+            var marker_1ff7a2708f59f5ff623189a4c3f3591c = L.marker(
+                [24.7100777, 46.8159077],
+                {}
+            ).addTo(map_d73d498de77923a16b94ac317036b147);
+        
+    
+            var icon_5ccd6051e0410e162b7e717c5975ab8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bus", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1ff7a2708f59f5ff623189a4c3f3591c.setIcon(icon_5ccd6051e0410e162b7e717c5975ab8e);
+        
+    
+        var popup_dfa1567f481e1a83ee1edabd46f2e5fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24da2d673ac74dbc051843663f40bf07 = $(`<div id="html_24da2d673ac74dbc051843663f40bf07" style="width: 100.0%; height: 100.0%;">Zubair Bin Al-'Awam 409</div>`)[0];
+                popup_dfa1567f481e1a83ee1edabd46f2e5fc.setContent(html_24da2d673ac74dbc051843663f40bf07);
+            
+        
+
+        marker_1ff7a2708f59f5ff623189a4c3f3591c.bindPopup(popup_dfa1567f481e1a83ee1edabd46f2e5fc)
+        ;
+
+        
+    
+</script>
+</html>
